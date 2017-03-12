@@ -1,0 +1,24 @@
+{
+  "name": "sagan.dog",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack-dev-server --config=webpack.config.js --progress",
+    "build": "webpack --config=webpack.config.js --progress",
+    "watch": "webpack --config=webpack.config.js --watch --progress"
+  },
+  "main": "index.js",
+  "author": "Dorian Karter <dkarter@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^0.26.4",
+    "elm-webpack-loader": "^4.2.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^2.4.1"
+  }
+}

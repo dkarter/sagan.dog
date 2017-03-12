@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+.elm-container {
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Rock Salt', cursive;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vw;
+
+  &:hover img {
+    opacity: 0.3;
+  }
+
+  img {
+    flex: 1 1 auto;
+    width: 33.3%;
+    transition: .8s opacity;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+
+}
